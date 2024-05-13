@@ -1,0 +1,30 @@
+form {
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 50px;
+    box-shadow: 0 0 5px #ffffff20;
+    background: #131417;
+    width: 60vh;
+  }
+
+  @keyframes colors {
+    0% {
+      background-position: 0 50%;
+    }
+    
+    50% {
+      background-position: 100% 50%;
+    }
+    
+    100% {
+      background-position: 0 50%;
+    }
+  }
+  #login {
+    color: white;
+    background: linear-gradient(45deg, red, orange, purple, blue);
+    background-size: 300% 300%;
+    animation: colors 10s ease infinite;
+    height: 100vh;
+    align-items: center;
+  }
